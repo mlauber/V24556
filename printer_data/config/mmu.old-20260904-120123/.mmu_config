@@ -7,9 +7,9 @@ CONFIG_UNIT_INDEX=0
 # CONFIG_MMU_HAS_SENSOR_EXTRUDER is not set #~DEFAULT~#
 CONFIG_MMU_HAS_TOOLHEAD_CUTTER=y
 #                                                     
-#   (\\_/)                                            
+#   (\_/)                                             
 #   ( *,*)                                            
-#   (\")_(\") Configuration - Unit: [[B]]unit0[[/B]]             
+#   (")_(") Configuration - Unit: [[B]]unit0[[/B]]               
 #                                                     
 #   _
 CONFIG_PARAM_TOOLHEAD_TYPE="A4T WWBMG Revo Voron" #~DEFAULT~#
@@ -109,7 +109,6 @@ CONFIG_PARAM_EXTRUDER_FORM_TIP_CURRENT=100 #~DEFAULT~#
 CONFIG_MMU_HAS_BLOBIFIER=y
 CONFIG_PIN_BLOBIFIER_SERVO="PB6"
 CONFIG_PIN_BLOBIFIER_BUCKET_SWITCH="^PG6"
-CONFIG_MMU_HAS_BLOBIFIER_BUCKET_SWITCH=y #~DEFAULT~#
 CONFIG_PIN_BLOBIFIER_STEPPER_STEP="" #~DEFAULT~#
 CONFIG_PIN_BLOBIFIER_STEPPER_DIR="" #~DEFAULT~#
 CONFIG_PIN_BLOBIFIER_STEPPER_ENABLE="" #~DEFAULT~#
@@ -549,7 +548,6 @@ CONFIG_PARAM_GEAR_UART_ADDRESS_3=0 #~DEFAULT~#
 #   MCU connection
 # CONFIG_CHOICE_MMU_CONNECTION_TYPE_SERIAL is not set #~DEFAULT~#
 CONFIG_CHOICE_MMU_CONNECTION_TYPE_CANBUS=y
-# CONFIG_CHOICE_MMU_CANBUS_UUID_PREVIOUS is not set #~DEFAULT~#
 CONFIG_CHOICE_MMU_CANBUS_UUID_OTHER=y #~DEFAULT~#
 CONFIG_MMU_CANBUS_UUID_OTHER="4e03a3fb58e7"
 CONFIG_MMU_CANBUS_INTERFACE_OTHER="can0"
